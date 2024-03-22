@@ -23,6 +23,9 @@ const NewArray = students.map ((element) => {
     let newList = {
         nome: element
     }
-    return newList;
+    return newList.nome.toUpperCase();
 })
 console.log(NewArray);
+
+// Esercizio 2: creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
+
