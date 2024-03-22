@@ -29,3 +29,51 @@ console.log(NewArray);
 
 // Esercizio 2: creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
 
+const studentsList = [
+    {
+        name: "Marco della Rovere",
+        id: 213,
+        grade: 78
+    },
+
+    {
+        name: "Paola Cortellessa",
+        id: 110,
+        grade: 96
+    },
+
+    {
+        name: "Andrea Mantegna",
+        id: 250,
+        grade: 48
+    },
+
+    {
+        name: "Gaia Borromini",
+        id: 145,
+        grade: 74
+    },
+
+    {
+        name: "Luigi Grimaldello",
+        id: 196,
+        grade: 68
+    },
+
+    {
+        name: "Piero della Francesca",
+        id: 102,
+        grade: 50
+    },
+
+    {
+        name: "Francesca da Polenta",
+        id: 120,
+        grade: 84
+    }
+]
+
+const studentsInfo = studentsList.filter (element => {
+    return element.grade > 70;
+})
+console.log(studentsInfo);
