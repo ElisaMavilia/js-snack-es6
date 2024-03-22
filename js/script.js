@@ -10,16 +10,29 @@ Generiamo e stampiamo in console la lista per i segnaposto. */
 
 let vips = ['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'];
 
-
-
 let guest = [
     {
         tableName: "Tavolo Vip",
         guestName: "Brad Pitt",
-        place: "1"
+        place: 1
     }
 ]
 
-guest.forEach((element) =>{
-console.log(element);
+vips.forEach((element, index) =>{
+const table = [
+    {
+        tableName: "",
+        guestName: "",
+        place: ""
+    }
+]
+guest.push(table);
+guest[1].guestName = 'Johnny Depp'; 
+guest[1].place = 2;
+guest[1].tableName = "Tavolo Vip";
+
+
 })
+
+
+console.log("guests:", guest);
