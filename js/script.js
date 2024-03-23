@@ -26,11 +26,25 @@ const table = [
         place: ""
     }
 ]
-guest.push(table);
 
+table.filter (element => {
+    return element.guestName == "";
 })
 
-guest[1].guestName = 'Johnny Depp'; 
+console.log(table);
+})
+
+
+
+    
+
+ 
+console.log("guests:", guest);
+
+
+
+
+/* guest[1].guestName = 'Johnny Depp'; 
 guest[1].place = 2;
 guest[1].tableName = "Tavolo Vip";
 
@@ -69,6 +83,9 @@ guest[9].tableName = "Tavolo Vip";
 guest[10].guestName = 'Fiorello';
 guest[10].place = 10;
 guest[10].tableName = "Tavolo Vip"; 
+ */
 
 
-console.log("guests:", guest);
+
+
+
