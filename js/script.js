@@ -23,7 +23,7 @@ let guest = [
 vips.forEach((element, index) =>{
 let guestName = element;
 let tableName = "Tavolo vip";
-let place = index + 1;
+let place = (index + 1);
 const table = [
     {
         tableName,
