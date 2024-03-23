@@ -17,6 +17,7 @@ let guest = [
         tableName: "Tavolo Vip",
         guestName: "Brad Pitt",
         place: 1
+
     }
 ]
 
@@ -31,12 +32,10 @@ const table = [
         place
     }
 ]
-guest.push(table, element, index); 
+guest.push(table); 
 console.log(table, element, index);
-
-
 })
-console.log("guests:", guest);
+
 
 
 
