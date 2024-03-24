@@ -31,11 +31,9 @@ const table = [
 ]
 guest.push(table); 
 console.log(table, element);
-
-
 })
 guest.splice(0,1);
-console.log("guest", guest);
+console.log("guest:", guest);
 
 
 
