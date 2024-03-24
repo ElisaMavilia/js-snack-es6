@@ -19,14 +19,14 @@ let guest = [
 ]
 
 vips.forEach((element, index) =>{
-let guestName = element;
+/* let guestName = element;
 let tableName = "Tavolo vip";
-let place = (index + 1);
+let place = (index + 1); */
 const table = [
     {
-        tableName,
-        guestName,
-        place
+        tableName: "Tavolo Vip",
+        guestName: element,
+        place: (index + 1)
     }
 ]
 guest.push(table); 
