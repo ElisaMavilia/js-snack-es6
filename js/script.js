@@ -10,8 +10,6 @@ Generiamo e stampiamo in console la lista per i segnaposto. */
 
 let vips = ['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'];
 
-
-
 let guest = [
     {
         tableName: "Tavolo Vip",
@@ -35,7 +33,7 @@ guest.push(table);
 console.log(table, element);
 })
 
-
+console.log("guest", guest);
 
 
 
